@@ -5,23 +5,23 @@ Given an array of positive integers, return the number of elements that are stri
 **Example**
 
 Input
-\`\`\`
+```
 responseTimes = [100, 200, 150, 300]
-\`\`\`
+```
 
 Output
-\`\`\`
+```
 2
-\`\`\`
+```
 
 Explanation
-\`\`\`
+```
 - Day 0: 100 (no previous days, skip) 
 - Day 1: 200 > average(100) = 100 → count = 1 
 - Day 2: 150 vs average(100, 200) = 150 → not greater → count = 1 
 - Day 3: 300 > average(100, 200, 150) = 150 → count = 2 
 Return 2.
-\`\`\`
+```
 
 ## Input Format
 
@@ -30,13 +30,13 @@ Return 2.
 - If n = 0, the second line is omitted or empty.
 
 **Example**
-\`\`\`
+```
 4
 100
 200
 150
 300
-\`\`\`
+```
 here 4 is the length of array, followed by the elements of array on each line.
 
 ## Constraints
@@ -49,22 +49,22 @@ here 4 is the length of array, followed by the elements of array on each line.
 - A single integer depicting the count of days.
 
 ## Sample Input 0
-\`\`\`
+```
 0
-\`\`\`
+```
 
 ## Sample Output 0
-\`\`\`
+```
 0
-\`\`\`
+```
 
 ## Sample Input 1
-\`\`\`
+```
 1
 100
-\`\`\`
+```
 
 ## Sample Output 1
-\`\`\`
+```
 0
-\`\`\`
+```
